@@ -80,4 +80,4 @@ src/
 
 ---
 
-Made with ❤️ by Kunjum Mittal
+Made by Kunjum Mittal
