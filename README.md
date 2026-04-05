@@ -65,52 +65,6 @@ src/
 └── index.css               # Tailwind + global CSS variables
 ```
 
----
-
-## 🎨 Upgrading to Spline 3D Avatar
-
-To swap the Three.js brain for your own Spline character:
-
-```bash
-npm install @splinetool/react-spline
-```
-
-Then in `src/components/ThreeScene.jsx`, replace the entire file with:
-
-```jsx
-import Spline from '@splinetool/react-spline'
-
-export default function ThreeScene() {
-  return (
-    <Spline
-      scene="YOUR_SPLINE_SCENE_URL"
-      style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}
-    />
-  )
-}
-```
-
-Get your scene URL from [spline.design](https://spline.design) → Share → Copy Link.
-
----
-
-## 🌐 Deployment
-
-### Vercel (recommended)
-
-```bash
-npm install -g vercel
-vercel
-```
-
-### Netlify
-
-```bash
-npm run build
-# drag the `dist/` folder to Netlify Drop
-```
-
----
 
 ## 📦 Key Dependencies
 
