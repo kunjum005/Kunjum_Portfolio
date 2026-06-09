@@ -32,19 +32,19 @@ export default function Connect() {
 
           {/* Email */}
           <motion.a
-            href="mailto:kunjum7025@gmail.com"
+            href="mailto:kunjum7011@gmail.com"
             className="inline-block font-mono text-lg mb-8 no-underline"
             style={{ color: '#00d4ff' }}
             whileHover={{ scale: 1.04, letterSpacing: '0.04em' }}
             transition={{ duration: 0.2 }}
           >
-            kunjum7025@gmail.com
+            kunjum7011@gmail.com
           </motion.a>
 
           {/* Primary CTA */}
           <div className="mb-8">
             <motion.a
-              href="mailto:kunjum7025@gmail.com"
+              href="mailto:kunjum7011@gmail.com"
               className="inline-flex items-center gap-2 px-8 py-4 bg-accent text-bg font-bold text-sm rounded-xl no-underline"
               whileHover={{ scale: 1.04, backgroundColor: '#00b8d9', y: -2 }}
               whileTap={{ scale: 0.97 }}
